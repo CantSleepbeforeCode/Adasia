@@ -36,22 +36,6 @@
     </div>
   </section>
 
-  <div id="home-intro" class="home-intro custom-home-intro bg-color-tertiary m-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-sm-8">
-          <p class="text-color-dark m-0">
-            <font style="color: white;"> App available for </font><strong style="color: #e6c300">Android, Iphone and Windows Phone.</strong>
-            <span class="pt-0 text-2">Also available on Amazon App Store and Gallery App Store.</span>
-          </p>
-        </div>
-        <div class="btn-download">
-          <a href="#downloads" style="color:black !important; background: #e6c300; font-size: 13px;" class="btn custom-btn-style-1 text-uppercase font-weight-semibold float-md-right mt-1" data-hash data-hash-offset="62"><i class="icon-cloud-download icons mr-3	"></i>DOWNLOAD NOW</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <section id="how-it-work" class="section bg-color-dark m-0">
     <div class="container">
       <div class="row justify-content-center">
@@ -180,23 +164,9 @@
           <div class="row counters counters-text-dark custom-counters-style-1">
             <div class="col-sm-4 col-lg-4 col-lg-2 m-auto">
               <div class="counter text-center">
-                <i class="icon-people icons"></i>
-                <span class="counter-value" data-to="1500" data-append="+">0</span>
-                <span class="counter-title">People Connected</span>
-              </div>
-            </div>
-            <div class="col-sm-4 col-lg-4 col-lg-2 m-auto">
-              <div class="counter text-center">
                 <i class="icon-cloud-download icons mr-2"></i>
                 <span class="counter-value" data-to="25000" data-append="+">0</span>
                 <span class="counter-title">Downloads</span>
-              </div>
-            </div>
-            <div class="col-sm-4 col-lg-4 col-lg-2 m-auto">
-              <div class="counter text-center">
-                <i class="icon-clock icons"></i>
-                <span class="counter-value" data-to="3000" data-append="+">0</span>
-                <span class="counter-title">Development Hours</span>
               </div>
             </div>
           </div>
@@ -427,7 +397,7 @@
     <div class="container py-4">
       <div class="row">
         <div class="col pb-4 text-center">
-          <h2 class="text-color-dark font-weight-normal text-5 mb-0 pt-2">Meet <strong class="font-weight-extra-bold">Our Team</strong></h2>
+          <h2 class="text-color-dark font-weight-normal text-5 mb-0 pt-2">Para Cerdikiawan <strong class="font-weight-extra-bold">Adasia</strong></h2>
           <p>Rockstars lorem ipsum dolor sit amet, consectetur adipiscing elit ac laoreet libero.</p>
         </div>
       </div>
@@ -438,18 +408,13 @@
               <a>
                 <img src="porto/img/team/team-1.jpg" class="img-fluid border-radius-0" alt="">
                 <span class="thumb-info-title">
-                  <span class="thumb-info-inner">John Doe</span>
-                  <span class="thumb-info-type text-color-dark">CEO</span>
+                  <span class="thumb-info-inner">Yusela Deisca Ramadina</span>
+                  <span class="thumb-info-type text-color-dark">Hustler</span>
                 </span>
               </a>
             </span>
             <span class="thumb-info-caption">
               <span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-              <span class="thumb-info-social-icons">
-                <a target="_blank" href="http://www.facebook.com/"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-                <a href="http://www.twitter.com/"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-                <a href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-              </span>
             </span>
           </span>
         </div>
@@ -459,18 +424,13 @@
               <a>
                 <img src="porto/img/team/team-2.jpg" class="img-fluid border-radius-0" alt="">
                 <span class="thumb-info-title">
-                  <span class="thumb-info-inner">Jessica Doe</span>
-                  <span class="thumb-info-type text-color-dark">Marketing</span>
+                  <span class="thumb-info-inner">Samsul Bahri</span>
+                  <span class="thumb-info-type text-color-dark">Hacker</span>
                 </span>
               </a>
             </span>
             <span class="thumb-info-caption">
               <span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-              <span class="thumb-info-social-icons">
-                <a target="_blank" href="http://www.facebook.com/"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-                <a href="http://www.twitter.com/"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-                <a href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-              </span>
             </span>
           </span>
         </div>
@@ -480,18 +440,13 @@
               <a>
                 <img src="porto/img/team/team-3.jpg" class="img-fluid border-radius-0" alt="">
                 <span class="thumb-info-title">
-                  <span class="thumb-info-inner">Rick Edward Doe</span>
-                  <span class="thumb-info-type text-color-dark">Developer</span>
+                  <span class="thumb-info-inner">Dinda Saputri</span>
+                  <span class="thumb-info-type text-color-dark">Hustler</span>
                 </span>
               </a>
             </span>
             <span class="thumb-info-caption">
               <span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-              <span class="thumb-info-social-icons">
-                <a target="_blank" href="http://www.facebook.com/"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-                <a href="http://www.twitter.com/"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-                <a href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-              </span>
             </span>
           </span>
         </div>
@@ -503,18 +458,13 @@
               <a>
                 <img src="porto/img/team/team-4.jpg" class="img-fluid border-radius-0" alt="">
                 <span class="thumb-info-title">
-                  <span class="thumb-info-inner">Melinda Wolosky</span>
-                  <span class="thumb-info-type text-color-dark">Design</span>
+                  <span class="thumb-info-inner">Reyza Zhakarriya Sukaesich</span>
+                  <span class="thumb-info-type text-color-dark">Hipster</span>
                 </span>
               </a>
             </span>
             <span class="thumb-info-caption">
               <span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-              <span class="thumb-info-social-icons">
-                <a target="_blank" href="http://www.facebook.com/"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-                <a href="http://www.twitter.com/"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-                <a href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-              </span>
             </span>
           </span>
         </div>
@@ -524,18 +474,13 @@
               <a>
                 <img src="porto/img/team/team-4.jpg" class="img-fluid border-radius-0" alt="">
                 <span class="thumb-info-title">
-                  <span class="thumb-info-inner">Melinda Wolosky</span>
-                  <span class="thumb-info-type text-color-dark">Design</span>
+                  <span class="thumb-info-inner">Muhammad Iqbal Al-Haswan</span>
+                  <span class="thumb-info-type text-color-dark">Hacker</span>
                 </span>
               </a>
             </span>
             <span class="thumb-info-caption">
               <span class="thumb-info-caption-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan</span>
-              <span class="thumb-info-social-icons">
-                <a target="_blank" href="http://www.facebook.com/"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-                <a href="http://www.twitter.com/"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-                <a href="http://www.linkedin.com/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-              </span>
             </span>
           </span>
         </div>
