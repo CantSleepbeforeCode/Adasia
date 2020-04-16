@@ -1,0 +1,97 @@
+
+  html {
+    scroll-behavior: smooth !important;
+  }
+
+  .custom-background-style-1:after{
+    background: url("../../images/tari-tradisional.jpg");
+    background-repeat: no-repeat;
+
+  }
+
+  .btn-download{
+    margin: auto !important;
+  }
+
+  .btn-gold{
+    border: solid rgba(230, 195, 0, 0.5) 2px !important;
+    border-radius: 16px;
+    color: rgba(230, 195, 0, 0.5) !important;
+  }
+
+  .btn-gold:hover,
+  .btn-gold:focus {
+    border: solid rgba(230, 195, 0, 1) 2px !important;
+  }
+
+  .btn-dark-gold{
+    font-weight: bold;
+    border-radius: 16px;
+    background-color: #212529;
+    color: rgba(230, 195, 0, 0.8);
+  }
+
+  .btn-dark-gold:hover,
+  .btn-dark-gold:focus {
+    color: rgba(230, 195, 0, 1);
+  }
+
+  .team-card{
+    box-shadow: 5px 10px 8px  #888888;
+  }
+
+  .team-card-4{
+    box-shadow: 5px 10px 8px  #888888;
+    float: right;
+  }
+
+
+  .team-card-5{
+    box-shadow: 5px 10px 8px  #888888;
+    float: left;
+  }
+
+  .modal-header,
+  .modal-header h5,
+  .modal-header .close{
+    background: #212529;
+    color: rgba(230, 195, 0, 1);
+  }
+
+  .modal-body{
+  background-color: #f7f7f7;
+  }
+
+  .modal-footer{
+    border-top: 1px #212529 solid;
+  }
+
+  .modal label{
+    float: left;
+    font-weight: bold;
+    color: #212529;
+  }
+
+  .thumb-info-social-icons a i{
+    color: #212529;
+  }
+
+  .social-icons.custom-social-icons-style-1._white li a:hover{
+    color: gold !important;
+  }
+
+  @media screen and (max-width: 997px) {
+    .team-card-4{
+      float: none !important;
+    }
+
+
+    .team-card-5{
+      margin-top: 30px;
+      float: none !important;
+    }
+
+    .custom-wrap-icons{
+      display: none !important;
+    }
+  }
