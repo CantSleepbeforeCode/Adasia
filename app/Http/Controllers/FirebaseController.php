@@ -13,7 +13,7 @@ class FirebaseController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
 
         $serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/FirebaseKey.json');
@@ -24,12 +24,12 @@ class FirebaseController extends Controller
         $ref = $database->getReference('user');
         $key = $ref->push()->getKey();
         $ref->getChild($key)->set([
-            'Nama' => 'Samsul Bahri',
-            'Email' => 'samring025@gmail.com',
-            'Umur' => '21',
-            'Pekerjaan' => 'Mahasiswa'
+            'Nama' => $request->nama,
+            'Email' => $request->email,
+            'Umur' => $request->umur,
+            'Pekerjaan' => $request->pekerjaan
         ]);
-        return $key;
+        return redirect('/Home-Page');
     
     }
 

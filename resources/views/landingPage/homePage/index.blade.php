@@ -162,11 +162,45 @@
       <div class="row">
         <div class="col">
           <div class="row counters counters-text-dark custom-counters-style-1">
-            <div class="col-sm-4 col-lg-4 col-lg-2 m-auto">
+            <div class="col-sm-4 col-lg-4 col-lg-2 m-auto text-center">
               <div class="counter text-center">
                 <i class="icon-cloud-download icons mr-2"></i>
                 <span class="counter-value" data-to="25000" data-append="+">0</span>
-                <span class="counter-title">Downloads</span>
+                <span class="counter-title">Pre-Register</span>
+              </div>
+              <button class="btn btn-outline-dark mb-3 mt-4" type="button" data-toggle="collapse" data-target="#tabelPreRegister" aria-expanded="false" aria-controls="tabelPreRegister">Tampilkan</button>
+              
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+            <div class="collapse" id="tabelPreRegister">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Nama</th>
+                      <th scope="col">Pekerjaan</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry the Bird</td>
+                      <td>Thornton</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -307,85 +341,34 @@
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <h2 class="text-color-gold">Reviews</h2><br>
-          <div class="owl-carousel custom-arrows-style-2 _custom-nav-bottom _big" data-plugin-options="{'items': 2, 'responsive': {'479': {'items': 1}, '979': {'items': 2}, '1199': {'items': 2}}, 'margin': 80, 'loop': false, 'dots': false, 'nav': true}">
-            <div>
-              <div class="custom-review text-left">
-                <h4 class="text-color-gold">
-                  Albert Manjo
-                  </span>
-                </h4>
-                <p class="custom-color-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quod, recusandae est aperiam autem repellat nostrum quibusdam, placeat quidem maxime harum tempore explicabo iure aut sunt impedit laborum natus.</p>
-              </div>
-            </div>
-            <div>
-              <div class="custom-review text-left">
-                <h4 class="text-color-gold">
-                  Albert Manjo
-                  </span>
-                </h4>
-                <p class="custom-color-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quod, recusandae est aperiam autem repellat nostrum quibusdam, placeat quidem maxime harum tempore explicabo iure aut sunt impedit laborum natus.</p>
-              </div>
-            </div>
-            <div>
-              <div class="custom-review text-left">
-                <h4 class="text-color-gold">
-                  Albert Manjo
-                  </span>
-                </h4>
-                <p class="custom-color-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quod, recusandae est aperiam autem repellat nostrum quibusdam, placeat quidem maxime harum tempore explicabo iure aut sunt impedit laborum natus.</p>
-              </div>
-            </div>
-            <div>
-              <div class="custom-review text-left">
-                <h4 class="text-color-gold">
-                  Albert Manjo
-                  </span>
-                </h4>
-                <p class="custom-color-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quod, recusandae est aperiam autem repellat nostrum quibusdam, placeat quidem maxime harum tempore explicabo iure aut sunt impedit laborum natus.</p>
-              </div>
-            </div>
-            <div>
-              <div class="custom-review text-left">
-                <h4 class="text-color-gold">
-                  Albert Manjo
-                  </span>
-                </h4>
-                <p class="custom-color-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quod, recusandae est aperiam autem repellat nostrum quibusdam, placeat quidem maxime harum tempore explicabo iure aut sunt impedit laborum natus.</p>
-              </div>
-            </div>
-
-          </div><br>
-          <a class="btn btn-outline btn-gold text-color-gold mb-3" data-hash data-hash-offset="62" data-toggle="modal" data-target="#modalReview">WRITE A REVIEW</a>
-
-          <!-- Modal -->
-          <div class="modal fade" id="modalReview" tabindex="-1" role="dialog" aria-labelledby="modalReviewLabel" aria-hidden="true" style="margin-top: 50px !important;">
-            <div class="modal-dialog modal-lg" role="document">
-              <form>
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Write a Review</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                      <div class="form-group">
-                        <label for="name">Name :</label>
-                        <input type="text" class="form-control" id="name" placeholder="Tell me your name">
-                      </div>
-                      <div class="form-group">
-                        <label for="review">Review :</label>
-                        <textarea class="form-control" id="review" rows="3" placeholder="What do you think of our app?"></textarea>
-                      </div>
+          <h2 class="text-color-gold">Pre-Register</h2><br>
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <form action="/pre-register" method="POST">
+                {{ csrf_field() }}
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <p class="text-light text-left mb-2">Nama</p>
+                    <input name="nama" type="text" class="form-control" placeholder="Nama">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <p class="text-light text-left mb-2">Umur</p>
+                    <input name="umur" type="umur" class="form-control" placeholder="Umur">
                   </div>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-dark-gold">Post Review</button>
+                <div class="form-group">
+                  <p class="text-light text-left mb-2">Email</p>
+                  <input name="email" type="email" class="form-control" placeholder="Email">
                 </div>
-              </div>
-            </form>
+                <div class="form-group">
+                  <p class="text-light text-left mb-2">Pekerjaan</p>
+                  <input name="pekerjaan" type="text" class="form-control" placeholder="Pekerjaan">
+                </div>
+                <div class="form-row text-center">
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-outline btn-gold text-color-gold mb-3">Daftar</button>
+                  </div>
+              </form>
             </div>
           </div>
         </div>

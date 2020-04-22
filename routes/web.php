@@ -14,6 +14,6 @@ Route::group(['middleware' => 'guest'], function(){
 
   Route::get('/', 'landingPageController@redirect');
   Route::get('/Home-Page', 'landingPageController@index');
-  Route::get('firebase','FirebaseController@index');
+  Route::post('/pre-register','FirebaseController@index');
 
 });
