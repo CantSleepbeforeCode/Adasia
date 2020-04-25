@@ -10,10 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['middleware' => 'guest'], function(){
+Route::get('/', 'landingPageController@redirect');
+Route::get('/Home-Page', 'FirebaseController@index')->name('home-page');
+Route::get('/comingSoon', 'landingPageController@comingSoon')->name('comingSoon');
+Route::post('/pre-register','FirebaseController@store');
+Route::post('/firebase', 'FirebaseController@index');
+Route::middleware('guest')->group(function() {
+  Route::get('login', 'AuthController@index')->name('login');
+  Route::post('doLogin', 'AuthController@doLogin');
+});
 
-  Route::get('/', 'landingPageController@redirect');
-  Route::get('/Home-Page', 'landingPageController@index');
-  Route::post('/pre-register','FirebaseController@index');
-
+Route::group(['middleware' => 'auth'], function(){
+  Route::get('check-role', 'AuthController@checkRole')->name('check-role');
+  Route::post('logout', 'AuthController@doLogout')->name('logout');
+  Route::get('/dashboard/formMinat', 'dashboardController@index')->name('dasboard.formMinat');
 });

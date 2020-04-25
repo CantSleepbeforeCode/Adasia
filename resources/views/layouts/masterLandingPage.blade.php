@@ -15,32 +15,32 @@
 
   <!-- Icon -->
 
-  <link rel="shortcut icon" type="image/x-icon" href="images/logoAdasia.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/logoAdasia.ico">
 
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
   <!-- Web Fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css">
+  <link href="/https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css">
 
   <!-- Style CSS -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="porto/vendor/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="porto/vendor/animate/animate.min.css">
-  <link rel="stylesheet" href="porto/vendor/simple-line-icons/css/simple-line-icons.min.css">
-  <link rel="stylesheet" href="porto/vendor/owl.carousel/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="porto/vendor/owl.carousel/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="porto/vendor/magnific-popup/magnific-popup.min.css">
-  <link rel="stylesheet" href="porto/css/theme.css">
-  <link rel="stylesheet" href="porto/css/theme-elements.css">
-  <link rel="stylesheet" href="porto/css/theme-blog.css">
-  <link rel="stylesheet" href="porto/css/theme-shop.css">
-  <link rel="stylesheet" href="porto/vendor/rs-plugin/css/settings.css">
-  <link rel="stylesheet" href="porto/vendor/rs-plugin/css/layers.css">
-  <link rel="stylesheet" href="porto/vendor/rs-plugin/css/navigation.css">
-  <link rel="stylesheet" href="porto/css/demos/demo-app-landing.css">
-  <link rel="stylesheet" href="porto/css/skins/skin-app-landing.css">
-  <link rel="stylesheet" href="porto/css/custom.css">
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/porto/vendor/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/porto/vendor/animate/animate.min.css">
+  <link rel="stylesheet" href="/porto/vendor/simple-line-icons/css/simple-line-icons.min.css">
+  <link rel="stylesheet" href="/porto/vendor/owl.carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="/porto/vendor/owl.carousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="/porto/vendor/magnific-popup/magnific-popup.min.css">
+  <link rel="stylesheet" href="/porto/css/theme.css">
+  <link rel="stylesheet" href="/porto/css/theme-elements.css">
+  <link rel="stylesheet" href="/porto/css/theme-blog.css">
+  <link rel="stylesheet" href="/porto/css/theme-shop.css">
+  <link rel="stylesheet" href="/porto/vendor/rs-plugin/css/settings.css">
+  <link rel="stylesheet" href="/porto/vendor/rs-plugin/css/layers.css">
+  <link rel="stylesheet" href="/porto/vendor/rs-plugin/css/navigation.css">
+  <link rel="stylesheet" href="/porto/css/demos/demo-app-landing.css">
+  <link rel="stylesheet" href="/porto/css/skins/skin-app-landing.css">
+  <link rel="stylesheet" href="/porto/css/custom.css">
 
   {{-- Page Style --}}
   @yield('style')
@@ -63,7 +63,7 @@
   </style>
 
   {{-- Additional script --}}
-  <script src="porto/vendor/modernizr/modernizr.min.js"></script>
+  <script src="/porto/vendor/modernizr/modernizr.min.js"></script>
 
 </head>
 
@@ -77,8 +77,8 @@
             <div class="header-column">
               <div class="header-row">
                 <div class="header-logo">
-                  <a href="/">
-                    <img alt="Adasia" width="55" height="55" src="images/logoAdasia.png">
+                  <a href="#">
+                    <img alt="Adasia" width="55" height="55" src="/images/logoAdasia.png">
                   </a>
                 </div>
               </div>
@@ -90,28 +90,28 @@
                     <nav class="collapse">
                       <ul class="nav nav-pills" id="mainNav">
                         <li>
-                          <a class="nav-link active" href="#overview" data-hash>
-                            OVERVIEW
+                          <a class="nav-link active" href="#deskripsi" data-hash>
+                            Deskripsi
                           </a>
                         </li>
                         <li>
-                          <a class="nav-link" href="#how-it-work" data-hash data-hash-offset="62">
-                            HOW IT WORK
+                          <a class="nav-link" href="#cara-kerja" data-hash data-hash-offset="62">
+                            Cara Kerja
                           </a>
                         </li>
                         <li>
-                          <a class="nav-link" href="#key-features" data-hash data-hash-offset="62">
-                            KEY FEATURES
+                          <a class="nav-link" href="#fitur" data-hash data-hash-offset="62">
+                            Fitur
                           </a>
                         </li>
                         <li>
-                          <a class="nav-link" href="#reviews" data-hash data-hash-offset="62">
-                            REVIEWS
+                          <a class="nav-link" href="#pre-register" data-hash data-hash-offset="62">
+                            Pre-Register
                           </a>
                         </li>
                         <li>
-                          <a class="nav-link" href="#team" data-hash data-hash-offset="62">
-                            TEAM
+                          <a class="nav-link" href="#tim" data-hash data-hash-offset="62">
+                            Tim
                           </a>
                         </li>
                         <li>
@@ -120,8 +120,8 @@
                           </a>
                         </li>
                         <li>
-                          <a class="nav-link" href="#downloads" data-hash>
-                            DOWNLOADS
+                          <a class="nav-link" href="#download" data-hash>
+                            DOWNLOAD
                           </a>
                         </li>
                       </ul>
@@ -167,27 +167,27 @@
   </div>
 
   <!-- Script -->
-  <script src="porto/vendor/jquery/jquery.min.js"></script>
-  <script src="porto/vendor/jquery.appear/jquery.appear.min.js"></script>
-  <script src="porto/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="porto/vendor/jquery.cookie/jquery.cookie.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <script src="porto/vendor/common/common.min.js"></script>
-  <script src="porto/vendor/jquery.validation/jquery.validate.min.js"></script>
-  <script src="porto/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-  <script src="porto/vendor/jquery.gmap/jquery.gmap.min.js"></script>
-  <script src="porto/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-  <script src="porto/vendor/isotope/jquery.isotope.min.js"></script>
-  <script src="porto/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="porto/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="porto/vendor/vide/jquery.vide.min.js"></script>
-  <script src="porto/vendor/vivus/vivus.min.js"></script>
-  <script src="porto/js/theme.js"></script>
-  <script src="porto/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-  <script src="porto/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-  <script src="porto/js/views/view.contact.js"></script>
-  <script src="porto/js/custom.js"></script>
-  <script src="porto/js/theme.init.js"></script>
+  <script src="/porto/vendor/jquery/jquery.min.js"></script>
+  <script src="/porto/vendor/jquery.appear/jquery.appear.min.js"></script>
+  <script src="/porto/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="/porto/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+  <script src="/bootstrap/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="/porto/vendor/common/common.min.js"></script>
+  <script src="/porto/vendor/jquery.validation/jquery.validate.min.js"></script>
+  <script src="/porto/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+  <script src="/porto/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+  <script src="/porto/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+  <script src="/porto/vendor/isotope/jquery.isotope.min.js"></script>
+  <script src="/porto/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="/porto/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="/porto/vendor/vide/jquery.vide.min.js"></script>
+  <script src="/porto/vendor/vivus/vivus.min.js"></script>
+  <script src="/porto/js/theme.js"></script>
+  <script src="/porto/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script src="/porto/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="/porto/js/views/view.contact.js"></script>
+  <script src="/porto/js/custom.js"></script>
+  <script src="/porto/js/theme.init.js"></script>
   @yield('script')
 
 </body>

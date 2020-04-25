@@ -8,11 +8,16 @@ class landingPageController extends Controller
 {
   public function redirect()
   {
-    return redirect('Home-Page');
+    return redirect()->route('home-page');
   }
 
   public function index()
   {
     return view('landingPage.homePage.index');
+  }
+
+  public function comingSoon()
+  {
+    return view('landingPage.comingSoon');
   }
 }

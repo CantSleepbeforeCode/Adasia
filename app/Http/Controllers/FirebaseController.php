@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Kreait\Firebase;
 use Kreait\Firebase\Factory;
 use Kreait\Firebase\ServiceAccount;
+use Kreait\Firebase\Database;
 
 class FirebaseController extends Controller
 {
@@ -21,16 +23,13 @@ class FirebaseController extends Controller
             ->withServiceAccount($serviceAccount)
             ->create();
         $database = $firebase->getDatabase();
-        $ref = $database->getReference('user');
-        $key = $ref->push()->getKey();
-        $ref->getChild($key)->set([
-            'Nama' => $request->nama,
-            'Email' => $request->email,
-            'Umur' => $request->umur,
-            'Pekerjaan' => $request->pekerjaan
-        ]);
-        return redirect('/Home-Page');
-    
+        $user = $database->getReference('user')->getValue();
+        foreach ($user as $u) {
+            $all_user[] = $u;
+        }
+        // $jsonResponse = response()->json($createPost);
+        return view('landingPage.homePage.index', ['hasil' => compact('all_user')]);
+
     }
 
     /**
@@ -51,7 +50,20 @@ class FirebaseController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $serviceAccount = ServiceAccount::fromJsonFile(__DIR__.'/FirebaseKey.json');
+        $firebase = (new Factory)
+            ->withServiceAccount($serviceAccount)
+            ->create();
+        $database = $firebase->getDatabase();
+        $ref = $database->getReference('user');
+        $key = $ref->push()->getKey();
+        $ref->getChild($key)->set([
+            'Nama' => $request->nama,
+            'Email' => $request->email,
+            'Umur' => $request->umur,
+            'Pekerjaan' => $request->pekerjaan
+        ]);
+        return redirect('/Home-Page');
     }
 
     /**

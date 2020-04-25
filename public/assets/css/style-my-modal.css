@@ -1,0 +1,130 @@
+
+
+/* Modal Apply */
+
+.modal-apply .modal-header{
+  background-color: #1a275c;
+}
+
+.modal-apply h5{
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+.modal-apply .modal-body{
+  text-align: center;
+
+}
+
+.modal-apply i{
+  font-size: 100px;
+  color: #1a275c;
+  animation: shake 0.4s infinite;
+}
+
+.modal-apply b{
+  font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+
+.modal-apply p{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.modal-apply .btn-apply{
+  background-color: ;
+}
+
+.modal-apply .modal-footer{
+  background-color: #1a275c;
+}
+
+@keyframes shake {
+  0% { transform:  rotate(4deg); }
+  50% { transform:  rotate(4deg); }
+  60% { transform:  rotate(-4deg); }
+  100% { transform:  rotate(-4deg); }
+}
+
+/* Modal confirm */
+
+
+.modal-confirm h5{
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+.modal-confirm .modal-body{
+  text-align: center;
+
+}
+
+.modal-confirm i{
+  font-size: 100px;
+  animation: shake 0.4s infinite;
+}
+
+.modal-confirm b{
+  font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+
+.modal-confirm p{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.modal-confirm .btn-confirm{
+  background-color: ;
+}
+
+@keyframes shake {
+  0% { transform:  rotate(4deg); }
+  50% { transform:  rotate(4deg); }
+  60% { transform:  rotate(-4deg); }
+  100% { transform:  rotate(-4deg); }
+}
+
+/* Modal Logout */
+
+.modal-logout .modal-header{
+  background: #e6c300;
+}
+
+.modal-logout .modal-footer{
+  background: #e6c300;
+}
+
+.modal-logout h5{
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+.modal-logout .modal-body{
+  text-align: center;
+
+}
+
+.modal-logout b{
+  font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+
+.modal-logout p{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.modal-logout .btn-logout{
+  background-color: ;
+}
+
+.modal-logout button:hover{
+  transform: scale(1.1);
+}
+
+.modal-logout .logout-icon{
+  font-size: 60px;
+  color: #e6c300;
+}

@@ -13061,7 +13061,7 @@ html.boxed .slider-container {
 	position: relative;
 	text-decoration: none;
 	max-width: 300px;
-	height: 500px;
+	height: 400px;
 	background-color: #FFF;
 	border-radius: 4px;
 	overflow: hidden;
@@ -13229,7 +13229,7 @@ html.boxed .slider-container {
 	transition: all 0.3s ease;
 	border-radius: 3px;
 	position: relative;
-	height: 300px;
+	height: 400px;
 	width: 100%;
 }
 

@@ -94,4 +94,8 @@
     .custom-wrap-icons{
       display: none !important;
     }
+
+    .owl-carousel.custom-background-1{
+      bottom: -115px;
+    }
   }
