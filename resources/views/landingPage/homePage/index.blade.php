@@ -186,8 +186,9 @@
                   <tbody>
                   @php
                     $no = 1;
+                    $serve = $hasil['all_user'];
                   @endphp
-                  @foreach ( $hasil as $user)
+                  @foreach ( $serve as $user)
                     <tr>
                       <th scope="row">{{ $no++ }}</th>
                       <td>{{ $user['Nama'] }}</td>
