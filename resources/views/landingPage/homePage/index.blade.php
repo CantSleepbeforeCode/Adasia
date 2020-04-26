@@ -196,7 +196,6 @@
         <div class="col-md-10 col-lg-7 order-2 order-lg-1 text-center text-lg-right">
           <h2 class="custom-bar _right text-color-gold">Solusi</h2>
           <p class="mb-5 text-color-light">Adapun berdasarkan permasalahan berikut dapat dinyatakan bahwa dengan menghadirkan platform yang berkaitan dengan kebudayaan Indonesia yaitu Adasia dimana dengan mengikuti perkembangan teknoogi dengan memadukan unsur kebudayaan Indonesia di dalam nya guna mengembangkan kebudayaan tersebut dengan representasi dalam bentuk video sekreatif mungkin dan sekalian berguna untuk perkembangan budaya lebih di kenal di kalangan millennial dan untuk semua orang agar dapat mengembangkan dan mengexplorasi budaya kita.</p><br><br>
-          <a href="#downloads" class="btn btn-outline btn-gold text-color-gold mb-3" data-hash data-hash-offset="62">DOWNLOAD NOW</a>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center">
           <img src="/images/prototype/phone-15.png" data-appear-animation="fadeInRight" data-appear-animation-delay="500" data-plugin-options="{'accY': 200}" alt class="img-fluid" />
@@ -242,7 +241,7 @@
        </div>
      </div>
    </div>
- </section> --}}
+ </section>
 
   <section id="tim" class="section m-0">
     <div class="container py-4">
