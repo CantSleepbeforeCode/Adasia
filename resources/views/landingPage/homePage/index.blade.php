@@ -505,7 +505,7 @@
           <span class="team-card-5 thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
             <span class="thumb-info-wrapper border-radius-0">
               <a>
-                <img src="/porto/img/team/team-4.jpg" class="img-fluid border-radius-0" alt="">
+                <img src="/images/team/iqbal.jpeg" class="img-fluid border-radius-0" alt="">
                 <span class="thumb-info-title">
                   <span class="thumb-info-inner">Muhammad Iqbal Al-Haswan</span>
                   <span class="thumb-info-type text-color-dark">Hacker</span>
